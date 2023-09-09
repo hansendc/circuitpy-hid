@@ -5,7 +5,9 @@ You need:
 
  1. A script (found here)
  2. A CircuitPython board.  Can be as cheap as $10: https://www.adafruit.com/product/3500
- 3. An adapter to connect to your device.  The official Apple ones are here: https://www.apple.com/shop/product/MK0W2AM/A/lightning-to-usb-3-camera-adapter . There are many knockoffs on Amazon for $10-$20
+ 3. An adapter to connect to your device.  The official Apple ones are here:
+     https://www.apple.com/shop/product/MK0W2AM/A/lightning-to-usb-3-camera-adapter .
+    There are many knockoffs on Amazon for $10-$20
  4. A cable to connect the board to the adapter.  Usually any old MicroUSB cable will do.
 
 == Setting up your device ==
@@ -14,4 +16,4 @@ You need:
  2. Get the adafruit_hid library from here: https://github.com/adafruit/Adafruit_CircuitPython_Bundle .
  3. Unzip the bundle and copy lib/adafruit_hid to your device: CIRCUITPY/lib
  4. Copy a script to the device, like: "cat foo.py > /media/user/CIRCUITPY/code.py"
- 5. Plug the abom
+ 5. Plug the abomination and let it run.  By default it will do 20 gifts before stopping.
